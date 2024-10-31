@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_border_radius_16"
+    android:backgroundTint="@color/white"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_background"
+        android:padding="4dp"
+        app:srcCompat="@drawable/logo_toss_symbol" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@id/right_button"
+        android:layout_toEndOf="@id/left_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/center_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:text="6,470원"
+            android:textAppearance="@style/TextAppearance.Toss.Body.Bold.14"
+            android:textColor="@color/toss_gray"
+            android:textFontWeight="700" />
+
+        <TextView
+            android:id="@+id/center_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="우리은행 계좌"
+            android:textAppearance="@style/TextAppearance.Toss.Body.Reg.12"
+            android:textColor="@color/g_05" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/right_button"
+        style="@style/Theme.TossAndroid.Button.M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:text="송금"
+        android:textAppearance="@style/TextAppearance.Toss.Body.Med.14" />
+
+
+</RelativeLayout>

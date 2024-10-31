@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TossAndroid" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/g_01</item>
+        <item name="android:windowBackground">@color/g_01</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Theme.TossAndroid" parent = "Base.Theme.TossAndroid"/>
+
+    <style name="Theme.TossAndroid.Button" parent="Widget.Material3.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:backgroundTint">@color/selector_all_btn_background</item>
+        <item name="android:textColor">@color/selector_all_btn_text_color</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Theme.TossAndroid.Button.L" parent="Theme.TossAndroid.Button">
+        <item name="android:height">@dimen/button_l_height</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textAppearance">@style/TextAppearance.Toss.Sub.Med.16</item>
+    </style>
+
+    <style name="Theme.TossAndroid.Button.M" parent="Theme.TossAndroid.Button">
+        <item name="android:height">@dimen/button_m_height</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textAppearance">@style/TextAppearance.Toss.Body.Med.14</item>
+        <item name="android:textColor">@color/g_07</item>
+    </style>
+
+    <style name="Theme.TossAndroid.Button.S" parent="Theme.TossAndroid.Button">
+        <item name="android:height">@dimen/button_s_height</item>
+        <item name="android:layout_width">@dimen/button_s_width</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+<!--        <item name="strokeColor">@color/selector_pingle_btn_s</item>-->
+<!--        <item name="android:textColor">@color/selector_pingle_btn_s</item>-->
+<!--        <item name="android:textAppearance">@style/TextAppearance.Pingle.Body.Semi.14</item>-->
+    </style>
+
+    <style name="Theme.TossAndroid.Button.Number" parent="Theme.TossAndroid.Button">
+        <item name="android:height">50dp</item>
+        <item name="android:width">50dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+<!--        <item name="android:textAppearance">@style/TextAppearance.Pingle.Title.Semi.24</item>-->
+<!--        <item name="android:backgroundTint">@color/selector_plan_recruitment_btn_background</item>-->
+<!--        <item name="android:textColor">@color/selector_plan_recruitment_btn_text</item>-->
+    </style>
+
+    <style name="Theme.TossAndroid.Button.Check" parent="Theme.TossAndroid.Button">
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:paddingVertical">3dp</item>
+<!--        <item name="android:textAppearance">@style/TextAppearance.Pingle.Cap.Semi.10</item>-->
+<!--        <item name="android:backgroundTint">@color/selector_plan_recruitment_btn_background</item>-->
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

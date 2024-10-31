@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="8dp"
+    android:background="@drawable/shape_border_radius_16"
+    android:backgroundTint="@color/white"
+    >
+    <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/logo_toss_symbol"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/left_image"
+        android:text="토스뱅크"
+        android:layout_centerVertical="true"
+        android:textAppearance="@style/TextAppearance.Toss.Body.Med.16" />
+
+    <Button
+        android:id="@+id/right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Theme.TossAndroid.Button.M"
+        android:backgroundTint="@color/white"
+        android:text=">"
+        android:textAppearance="@style/TextAppearance.Toss.Body.Med.14"
+        android:textColor="@color/g_04"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>

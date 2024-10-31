@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/baseline_edit_notifications_24"
+        android:title="홈"/>
+    <item
+        android:id="@+id/menu_benefit"
+        android:icon="@drawable/baseline_edit_notifications_24"
+        android:title="혜택"/>
+    <item
+        android:id="@+id/menu_pay"
+        android:icon="@drawable/baseline_edit_notifications_24"
+        android:title="토스페이"/>
+    <item
+        android:id="@+id/menu_asset"
+        android:icon="@drawable/baseline_edit_notifications_24"
+        android:title="증권"/>
+    <item
+        android:id="@+id/menu_total"
+        android:icon="@drawable/baseline_edit_notifications_24"
+        android:title="전체"/>
+</menu>

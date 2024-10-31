@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <style android:name="CustomButtonText" android:parent="TextAppearance.MaterialComponents.Button">-->
+<!--        <item android:name="android:textSize">16sp</item> &lt;!&ndash; 텍스트 크기 설정 &ndash;&gt;-->
+<!--        <item android:name="android:textColor">#FFFFFF</item> &lt;!&ndash; 텍스트 색상 설정 &ndash;&gt;-->
+<!--    </style>-->
+</resources>
