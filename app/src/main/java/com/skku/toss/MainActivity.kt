@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
 
         val bottomNavigation = findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNavigation.setOnItemSelectedListener { item ->
-            Log.d("Tag", item.itemId.toString())
             when(item.itemId){
                 R.id.menu_home ->{
                     showFragment(HomeFragment())
