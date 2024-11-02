@@ -20,7 +20,6 @@
         android:layout_gravity="bottom"
         app:menu= "@menu/bottom_navigation_menu"
         app:itemIconSize="24dp"
-        app:itemIconTint="@color/g_03"
         app:itemPaddingBottom="8dp"
         app:itemPaddingTop="8dp"
         app:itemRippleColor="@color/g_07"
@@ -28,6 +27,8 @@
         android:background="@drawable/bottom_nav_background"
         app:itemTextAppearanceActive="@style/TextAppearance.Toss.Body.Reg.12"
         app:itemTextAppearanceInactive="@style/TextAppearance.Toss.Body.Reg.12"
+        app:itemTextColor="@color/bottom_nav_text_selector"
+        app:itemIconTint="@color/bottom_nav_icon_selector"
         />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
